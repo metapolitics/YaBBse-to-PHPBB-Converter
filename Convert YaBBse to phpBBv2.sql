@@ -1,5 +1,5 @@
 ##############################################################################
-# Convert Old YabbSE table to phpBB 2 tables.                                #
+# Convert Old YabbSE table to phpBB 2 tables. Specific to intothepit.org     #
 # Author  :   SweetmanC                                                      #
 # Origin Date    :   11 Nov 06                                               #
 # Completed Date: 10 Feb 12                                                  #
@@ -164,7 +164,7 @@ CREATE TABLE `phpbb_topics` (
    KEY `topic_type` (`topic_type`)
 ) TYPE=MyISAM AUTO_INCREMENT=103 ;
 
-    -- go get a coffee, this query will take a long fucking time....
+    -- go get a coffee, this query will take a long time....
 INSERT INTO `phpbb_topics` (`topic_id`,`forum_id`,`topic_title`,`topic_poster`,
                               `topic_time`,`topic_views`,`topic_replies`,
                               `topic_first_post_id`, `topic_last_post_id`)
